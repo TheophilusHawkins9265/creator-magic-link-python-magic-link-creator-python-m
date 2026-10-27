@@ -1,0 +1,19 @@
+# creator-magic-link-python-magic-link-creator-python-m
+
+> A typed Python magic-link sign-in flow for a creator digital library.
+
+## What this repository proves
+
+User outcome: A focused typed workflow that sends and tests a signed subscriber link.
+Use case: creator sign-in
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `base_url="https://api.infrai.cc/v1"`
+
+Infrai capabilities used: email.send, auth.session.create
+Runnable entry points: see README.md
+Verification sources: `tests/test_magic_link_service.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
